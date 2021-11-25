@@ -36,27 +36,6 @@ body{
     
 
 }
-.text_1 i{
-    color: rgb(255, 255, 255);
-    transform: scale(0);
-    margin-left: 28px;
-    margin-bottom: 24px;
-    transition: all .2s;
-}
-.text_2 i{
-    color: rgb(255, 255, 255);
-    transform: scale(0);
-    margin-left: 28px;
-    margin-bottom: 24px;
-    transition: all .2s;
-}
-.text_3 i{
-    color: rgb(255, 255, 255);
-    transform: scale(0);
-    margin-left: 28px;
-    margin-bottom: 24px;
-    transition: all .2s;
-}
 
 
 .fa-facebook-f, .fa-google-plus-g,.fa-twitter{
