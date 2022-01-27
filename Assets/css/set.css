@@ -1,0 +1,440 @@
+
+html,body{
+  margin:0;padding:0;
+  box-sizing: border-box;
+  min-height: 100%;
+  
+}
+
+
+
+
+.icons{
+  display: flex;
+  font-size: 30px;
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 500px;
+  height: 100px;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.fa-whatsapp,
+.fa-instagram,  
+.fa-vk,
+.fa-at{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.fa-whatsapp:hover,
+.fa-instagram:hover,  
+.fa-vk:hover,
+.fa-at:hover{
+  color: rgb(96, 132, 231);
+  transition: 0.2s;
+}
+
+
+
+
+.teips{
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+  
+
+}
+
+.img {
+  display: inline-block; /* Строчно-блочный элемент */
+   /* Скрываем всё за контуром */
+ }
+ .teips{
+  transition: 1s; /* Время эффекта */
+  display: block;
+  overflow: hidden; /* Убираем небольшой отступ снизу */
+ }
+ .teips:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+ }
+
+.start{
+  
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  max-width: 700px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 100px auto;
+}
+
+.name,.name2{
+  font-size: 44px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(96, 132, 231);
+  margin: 0 0;
+  /* padding: 0px 100px 0px 0px; */
+  
+}
+
+.spec{
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  margin: 0;
+  padding: 0px 30px 0px 0px;
+  font-weight: bold;
+  
+}
+
+.desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 400px;
+}
+.fa-angellist{
+  color: rgb(243, 191, 47);
+}
+
+.about_top{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(96, 132, 231);
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+.text{
+  
+  font-family: 'Poiret One';
+  text-align: center;
+  font-size: 25px;
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+.about{
+  
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+.ctrl{
+  max-width: 700px;
+  height: 250px;
+  margin:0 auto;
+}
+
+.ctrl_btns{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.b1{
+  border: 3px solid rgb(96, 132, 231);
+  text-decoration: none;
+  padding:15px 37px ;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: bold;
+  width: 300px;
+  
+  transition: 0.2s;
+  
+}
+
+.b2,.b3{
+  text-decoration: none;
+  border: 3px solid rgb(96, 132, 231);
+  margin-top: 30px;
+  padding:15px 37px ;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  width: 300px;
+  transition: 0.2s;
+}
+.b1:hover,.b2:hover,.b3:hover{
+  background-color: rgb(96, 132, 231);
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+
+
+  
+
+
+.li {
+  list-style-type: none; /* Убираем маркеры */
+ }
+
+.ul {
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.header{
+  background-color: rgb(96, 132, 231);
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  
+  
+}
+ 
+.row{
+  width: 100%;
+}
+   
+.container{
+ background-color: rgb(96, 132, 231);
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content:space-between;
+ margin: auto;
+ max-width: 900px;
+ 
+ 
+}
+
+.nav{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  
+}
+
+.serv1,.serv2,.serv3,.fa-phone-square-alt{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.footer{
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(146, 140, 140);
+}
+
+.serv1:hover,.serv2:hover,.serv3:hover{
+  transition: 0.2s;
+  color:rgb(255, 255, 255)
+}
+
+.ava{
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: block;
+
+}
+
+nav:first-child{
+  margin-left:0px;
+}
+
+.wrapper{
+  max-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow:hidden ;
+}
+
+.main{
+  display: block;
+  background-repeat: no-repeat;
+  flex: 1 1 auto;
+}
+
+.adv{
+  max-width: 100%;
+  text-align: center;
+  
+}
+
+.autor{
+  max-width: 100%;
+  align-items:center;
+}
+
+
+
+@media(max-width: 700px){
+.zapis{
+  max-width:200px;
+}
+
+  .nav{
+    margin-left: 0px;
+    align-items:center
+  }
+
+  .container{
+    max-width: 600px;
+    flex-direction: column;
+    align-items:center;
+    margin: 0 auto;
+  }
+  .spec{
+    padding: 0px;
+  }
+
+  .desc{
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+
+  .serv1,.serv2,.serv3,.fa-phone-square-alt{
+    margin-left: 10px;
+  }
+  .start{
+    
+    max-width: 500px;
+    padding-left: 0px;
+    flex-direction: column;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   
+  .about{
+    max-width: 500px;
+  }
+}
+
+@media(max-width:530px){
+
+  .zapis{
+    max-width: none;
+  }
+  .nav{
+    margin-left: 0px;
+    align-items:center
+    
+
+  }
+
+  .container{
+    max-width:none;
+    flex-direction: column;
+    align-items:center;
+    margin: 0 auto;
+  }
+
+  .start{
+    max-width: none;
+    padding-left: 0px;
+    flex-direction: column;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+   
+  .about{
+    max-width: none;
+  }
+  .spec{
+    padding: 0px;
+  }
+
+  .desc{
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+
+  .serv1,.serv2,.serv3,.fa-phone-square-alt{
+    margin-left: 5px;
+  }
+  
+}
+
+
+
+/* health */
+
+.slider{
+  height: 300px;
+  width: 100%;
+  background-color:wheat;
+}
+
+.main_madeira{
+  background-image:url(/img/toa-heftiba-a9pFSC8dTlo-unsplash.jpg);
+  background-repeat:no-repeat;
+}
+
+.mdrbtn{
+  margin: 0 auto;
+  text-align: center;
+  
+  margin-top: 50px;
+  
+  
+}
+
+.zapis{
+  padding: 15px 37px;
+  border: solid 3px rgb(96, 132, 231);
+  text-decoration: none;
+  align-items:center;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(246, 246, 248);
+  text-align: center;
+  font-weight: bold;
+  max-width: 300px;
+  transition: 0.2s;
+  
+}
+
+.zapis:hover{
+  background-color: rgb(96, 132, 231);
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+ 
+
+.textMadeira{
+  color: rgb(246, 246, 248);
+ 
+  font-weight:lighter;
+  
+  font-family: 'Poiret One';
+  text-align: center;
+  font-size: 25px;
+  
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.about_topMadeira{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(246, 246, 248);
+  text-align: center;
+  margin: 0 auto;
+}
+
